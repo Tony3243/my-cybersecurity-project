@@ -7,6 +7,10 @@ from loguru import logger
 logger.add(sys.stdout, level='WARNING')
 logger.add('sample_auth.log', level="WARNING")
 
+log_in = 'Scrutinizing file for any possible threats or failed login attempts'
+good = 'User has successfully logged in'
+sus = 'User is distingusing some abnormal behavior'
+failed = 'User surpassed threshold and failed login'
 
 
 with open('logs/sample_auth.log', 'r') as logs:
