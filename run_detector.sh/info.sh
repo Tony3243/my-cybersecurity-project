@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOG FILE="logs/auth_sample.log"
+LOG_FILE="logs/auth_sample.log"
 THRESHOLD=5
 
 echo "Running Cyber Threat Detector..."
