@@ -5,7 +5,7 @@ import re
 from loguru import logger
 
 logger.add(sys.stdout, level='WARNING')
-logger.add('sample_auth.log', level="WARNING")
+logger.add('run.log', level="WARNING")
 
 log_in = 'Scrutinizing file for any possible threats or failed login attempts'
 good = 'User has successfully logged in'
