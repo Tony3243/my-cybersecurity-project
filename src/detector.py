@@ -14,3 +14,4 @@ failed = 'User surpassed threshold and failed login'
 
 with open('logs/sample_auth.log', 'r') as logs:
     samples = logs.readlines()
+    

@@ -1,2 +1,13 @@
 # Contains raw lof files (e.g., auth.log)
 #sample sytem log files
+
+Jul  8 08:01:15 server sshd[2345]: Accepted password for jdoe from 192.168.1.5 port 54732 ssh2
+Jul  8 08:15:33 server sshd[2378]: Accepted password for sara from 10.0.0.8 port 60212 ssh2
+Jul  8 09:22:47 server sshd[2421]: Accepted password for admin from 172.16.0.11 port 51109 ssh2
+Jul  8 10:30:02 server sshd[2459]: Accepted password for tech_guy from 192.168.1.100 port 49200 ssh2
+Jul  8 11:45:12 server sshd[2512]: Accepted password for jdoe from 192.168.1.5 port 55301
+Jul  8 08:02:00 server sshd[2346]: Failed password for jdoe from 192.168.1.5 port 54736 ssh2
+Jul  8 08:02:18 server sshd[2379]: Failed password for sara from 10.0.0.8 port 60219 ssh2
+Jul  8 08:03:42 server sshd[2430]: Failed password for invalid user hacker from 203.0.113.77 port 32145 ssh2
+Jul  8 09:10:14 server sshd[2481]: Failed password for admin from 172.16.0.11 port 51112 ssh2
+Jul  8 09:45:55 server sshd[2502]: Failed password for guest from 198.51.100.23 port 44211 ssh2
