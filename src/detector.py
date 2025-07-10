@@ -2,6 +2,7 @@
 import pandas as pd
 import sys
 from loguru import logger
+from utils import extracting_potential_anomoly
 
 logger.add(sys.stdout, level='WARNING')
 logger.add('run.log', level="WARNING")
